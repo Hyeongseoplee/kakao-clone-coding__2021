@@ -1,3 +1,3 @@
 # kokoa clone coding 2021
 
-I love her!
+I love kang Eunmi.
