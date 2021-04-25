@@ -1,0 +1,27 @@
+.settings-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-icons__icon {
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.settings-icons__icon span {
+  margin-left: 25px;
+  font-size: 25px;
+}
+
+.settings-icons__icon:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: var(--border-top);
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+}
+
+.settings-icons__icon--column:nth-child(2) {
+  color: var(--dark-grey);
+}

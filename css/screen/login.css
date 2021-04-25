@@ -1,0 +1,78 @@
+.welcome-header {
+  margin: 100px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.welcome-header__text {
+  color: var(--dark-grey);
+  font-weight: 400;
+  width: 60%;
+}
+
+#logIn-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#logIn-form input {
+  font-size: 15px;
+  padding: 15px 0px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+#logIn-form input:not([type="submit"]) {
+  border-bottom: 1px solid var(--light-grey);
+  transition: border-color 0.5s ease-in-out;
+}
+
+#logIn-form input::placeholder {
+  color: var(--light-grey);
+}
+
+#logIn-form input:focus {
+  border-color: var(--yellow);
+}
+
+#logIn-form input[type="submit"] {
+  background-color: var(--yellow);
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+  font-size: 16px;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+
+#logIn-form input[type="submit"]:hover {
+  transform: scale(1.05);
+}
+
+#logIn-form a {
+  text-align: center;
+  font-size: 13px;
+}
+
+#logIn-form a:hover {
+  animation: upAndDown 1s ease-in-out infinite;
+  color: inherit;
+}
+
+@keyframes upAndDown {
+  0% {
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+  }
+}

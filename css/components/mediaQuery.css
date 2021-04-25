@@ -1,0 +1,19 @@
+.mediaQuery {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+  z-index: 99;
+}
+
+@media screen and (max-width: 668px) {
+  .mediaQuery {
+    display: none;
+  }
+}

@@ -1,0 +1,68 @@
+.user-components {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  padding-bottom: 20px;
+}
+
+.user-components__column {
+  display: flex;
+  justify-content: center;
+}
+
+.user-components__avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 42%;
+}
+
+.user-components__data {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-components__data .user-components__name {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.user-components__data .user-components__subtitle {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+}
+
+.user-components__avatar--big {
+  width: 80px;
+  height: 80px;
+}
+
+.user-components__avatar--sm {
+  width: 60px;
+  height: 60px;
+}
+
+.user-components__data .user-components__name--not-bold {
+  font-weight: 300;
+}
+
+.friends-main .user-components__column span,
+.friends-main .user-components__column .fa-chevron-right {
+  color: var(--light-grey);
+}
+
+.friends-main .user-components__column .fa-chevron-right {
+  margin-left: 7px;
+}
+
+.user-components__data .fa-exclamation-circle {
+  color: tomato;
+  margin-left: 8px;
+}
+
+.user-components__noBorder {
+  border-style: none;
+}

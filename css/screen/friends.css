@@ -1,0 +1,60 @@
+#friends-names-display {
+  background-color: var(--super-light-grey);
+  display: flex;
+  padding: 20px 0px;
+  width: 100%;
+  justify-content: center;
+  font-size: 15px;
+  align-items: center;
+  font-weight: 600;
+}
+
+#friends-names-display .fa-info-circle,
+#friends-names-display .fa-chevron-right {
+  color: var(--light-grey);
+}
+
+#friends-names-display .fa-info-circle {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+#friends-names-display .fa-chevron-right {
+  margin-left: 10px;
+}
+
+.friends-main {
+  padding: 10px var(--horizontal-space);
+}
+
+.friends-main__channel {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+  color: var(--dark-grey);
+}
+
+.splash-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashscreen 0.3s ease-in-out forwards;
+  animation-delay: 2s;
+}
+
+@keyframes hideSplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

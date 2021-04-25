@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kakao talk</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>150%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa fa-search fa-2x"></i></span>
+        <span><i class="far fa-comment fa-2x"></i></span>
+        <span><i class="fas fa-music fa-2x"></i></span>
+        <span><i class="fas fa-cog fa-2x"></i></span>
+      </div>
+    </div>
+
+    <main class="friends-main">
+      <a href="chat.html"
+        ><div href="" class="user-components">
+          <div class="user-components__column">
+            <img
+              src="image/3.jpg"
+              class="user-components__avatar user-components__avatar--sm"
+            />
+            <div class="user-components__data">
+              <h2 class="user-components__name">KakaoTalk</h2>
+              <h4 class="user-components__subtitle">
+                Please check My Kakao Account info
+              </h4>
+            </div>
+          </div>
+
+          <div class="user-components__column">
+            <span>21:22</span>
+            <div class="chat__notification">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+    <div class="mediaQuery">Your screen is too big ㅠㅠ</div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-users fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fa fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__smallNotification"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kakao talk</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body id="chat-screen">
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>150%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <div class="alt-header alt-header__chat">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Kang eunmi</h1>
+      </div>
+
+      <div class="alt-header__column">
+        <i class="fa fa-search fa-2x"></i>
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+    </div>
+
+    <main class="friends-main chat-main">
+      <div class="chat-screen__timestamp">
+        <span class="chat-screen__timestamp--time">Tuesday, June 30, 2020</span>
+      </div>
+
+      <div class="message-row">
+        <img src="image/1.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">Kang Eunmi</span>
+          <div class="message__info">
+            <span class="message__burble">Hi! I Love you.</span>
+            <span class="message__time">18:14</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-own">
+            <span class="message-own__time">18:16</span>
+            <span class="message-own__burble">Really?</span>
+        </div>
+      </div>
+
+      <div class="message-own">
+        <span class="message-own__time">18:16</span>
+        <span class="message-own__burble">I love you, too.</span>
+    </div>
+  </div>
+
+  <div class="message-row">
+    <img src="image/1.jpg" />
+    <div class="message-row__content">
+      <span class="message__author">Kang Eunmi</span>
+      <div class="message__info">
+        <span class="message__burble">Yeah!</span>
+        <span class="message__time">18:20</span>
+      </div>
+    </div>
+  </div>
+
+    </main>
+
+<form id="reply">
+<div class="reply-column">
+    <i class="far fa-plus-square fa-2x"></i>
+</div>
+<div class="reply-column">
+    <input type="text" placeholder="write a message..">
+    <svg class="far fa-smile-wink fa-2x"></svg>
+    <button><svg class="fas fa-arrow-up fa-2x"></svg></button>
+</div>
+</form>
+
+<div class="mediaQuery">Your screen is too big ㅠㅠ</div>
+
+  </body>
+</html>
