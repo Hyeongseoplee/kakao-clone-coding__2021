@@ -1,0 +1,31 @@
+#status-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 3px;
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.status-bar__column {
+  width: 33%;
+  text-align: center;
+}
+
+.status-bar__column:first-child {
+  text-align: left;
+}
+
+.status-bar__column:first-child .fa-wifi {
+  margin-left: 3px;
+}
+
+.status-bar__column:nth-child(2) {
+  font-weight: bold;
+}
+
+.status-bar__column:last-child {
+  text-align: right;
+}

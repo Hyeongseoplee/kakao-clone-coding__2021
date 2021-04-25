@@ -1,0 +1,152 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.find-icons__icons-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find-icons__icons-icon span {
+  margin-top: 30px;
+}
+
+.find-icons__icons-icon:nth-child(2) span {
+  width: 60%;
+  text-align: center;
+}
+
+.recommended-friends {
+  border-top: var(--border-top);
+  height: 300px;
+  margin-top: 20px;
+}
+
+.recommended-friends .recommended-friends__title {
+  padding: 15px 0px;
+  color: var(--dark-grey);
+}
+
+.recommended-friends span {
+  display: block;
+  margin: 100px 0px;
+  text-align: center;
+  color: var(--light-grey);
+}
+
+.open-chats {
+  border-top: var(--border-top);
+  padding-top: 20px;
+}
+
+.open-chats__bar {
+  display: flex;
+  justify-content: space-between;
+  color: var(--light-grey);
+}
+
+.open-chats__bar-title {
+  font-weight: 700;
+  font-size: 19px;
+  color: var(--dark-grey);
+}
+
+.open-chats__chat {
+  margin-top: 30px;
+}
+
+.open-chats__chat {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open-chats__chat-column {
+  display: flex;
+  flex-direction: column;
+  color: var(--dark-grey);
+}
+
+.open-chats__chat-column .open-chats__title {
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+}
+
+.open-chats__chat-column .open-chats__hashtag {
+  color: var(--dark-grey);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.open-chats__members img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.divider {
+  background-color: black;
+  display: block;
+  width: 1px;
+  height: 20px;
+  margin: 0px 10px;
+}
+
+.open-chats__members {
+  display: flex;
+  align-items: center;
+}
+
+.open-chats__members-activeBtn {
+  color: rgb(240, 131, 167);
+  font-size: 18px;
+}
+
+.open-chats__chat-column:last-child img {
+  width: 160px;
+  height: 160px;
+}
+
+.open-chats__chat-column:last-child {
+  position: relative;
+}
+
+.open-chats__image-notification {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  width: 70px;
+  height: 30px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.open-chats__image-notification .fa-heart {
+  margin-right: 5px;
+}
+
+.open-chats__chat-column:last-child:hover .fa-heart {
+  animation: bouncingHeart 1.5s linear infinite;
+  will-change: transform;
+}
+
+@keyframes bouncingHeart {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(2);
+    color: red;
+  }
+  100% {
+    transform: none;
+  }
+}

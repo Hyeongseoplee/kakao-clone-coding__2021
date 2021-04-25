@@ -1,0 +1,52 @@
+.nav__notification {
+  background-color: #ff6229;
+  color: whitesmoke;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 23px;
+  bottom: 16px;
+  animation: notiAnimation 1s ease-in-out infinite;
+}
+
+@keyframes notiAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.nav__smallNotification {
+  background-color: #ff6229;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  position: absolute;
+  right: -5px;
+  top: -17px;
+}
+
+.chat__notification {
+  background-color: #ff6229;
+  color: whitesmoke;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 23px;
+  right: 23px;
+}

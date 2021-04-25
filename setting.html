@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kakao talk</title>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>150%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="more.html"><i class="fas fa-chevron-left fa-2x"></i></a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fa fa-search fa-2x"></i></span>
+      </div>
+    </header>
+
+    <main class="friends-main">
+      <div class="settings-icons">
+        <div class="settings-icons__icon">
+          <i class="far fa-flag fa-2x"></i><span>Notices</span>
+        </div>
+        <div class="settings-icons__icon">
+          <i class="fas fa-flask fa-2x"></i><span>Kakao Lab</span>
+        </div>
+
+        <div class="settings-icons__icon">
+          <div class="settings-icons__icon--column">
+            <i class="fas fa-exclamation-circle fa-2x"></i><span>Version</span>
+          </div>
+          <span class="settings-icons__icon--column">Latest Version</span>
+        </div>
+
+        <div class="settings-icons__icon">
+          <i class="fas fa-lock fa-2x"></i><span>Privacy</span>
+        </div>
+        <div class="settings-icons__icon">
+          <i class="far fa-bell fa-2x"></i><span>Notifications</span>
+        </div>
+      </div>
+    </main>
+    <div class="mediaQuery">Your screen is too big ㅠㅠ</div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fas fa-users fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification">1</span>
+            <i class="fa fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__smallNotification"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
