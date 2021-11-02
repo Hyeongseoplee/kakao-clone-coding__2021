@@ -1,5 +1,5 @@
 # kokoa clone coding
-: html,css,js를 이용한 카카오톡 클론 코딩!
+: html,css 이용한 카카오톡 화면 구현해보기
 
 
 ###만들어야할 것
